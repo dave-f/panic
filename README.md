@@ -6,9 +6,11 @@ Some years later I thought it would be a good idea to preserve the source code f
 
 # Tools required
 
-* beebasm : assembler 
-* png2bbc : graphics builder
-* pucrunch : data compression
+To build the game you'll need these tools, all of which just require a C/C++ compiler:
+
+* [beebasm](https://github.com/stardot/beebasm)
+* [png2bbc](https://github.com/dave-f/png2bbc)
+* [pucrunch](https://github.com/dave-f/pucrunch)
 
 # Building
 
