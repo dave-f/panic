@@ -444,14 +444,14 @@ INCLUDE "screen.asm"
 INCLUDE "gems.asm"
 INCLUDE "keys.asm"
 INCLUDE "drawing.asm"
-INCLUDE "HPAndSan.asm"
+INCLUDE "HPandSan.asm"
 INCLUDE "collision.asm"
 INCLUDE "unpack.asm"
 INCLUDE "sound.asm"
 INCLUDE "dyntext.asm"
 	
 .codeEnd:
-	INCLUDE "LevelData.asm"
+	INCLUDE "leveldata.asm"
 	
 .manSprite:
 	INCBIN "BBCSPRT.BIN"
