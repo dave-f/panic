@@ -684,7 +684,7 @@ ENDIF
 	EQUB &03,_bitCollidable OR 1, _bitCollidable OR 1
 	EQUB &03,_bitCollidable OR 1, _bitCollidable OR 1
 	EQUB &03,_bitCollidable OR 1, _bitCollidable OR 1
-	EQUB &Fb,_bitCollidable OR 1,_bitClimbable OR 3,_bitCollidable OR 1,_bitCollidable OR 1, _bitClimbable OR 3,8 OR_bitFlipped,_bitCollidable OR 1
+	EQUB &Fb,_bitCollidable OR 1,_bitClimbable OR 3,_bitCollidable OR 1,_bitCollidable OR 1, _bitClimbable OR 3,8 OR _bitFlipped,_bitCollidable OR 1
 	EQUB &F9,9 OR _bitHookable, 3 OR _bitClimbable,_bitCollidable OR 1,8 OR _bitFlipped,_bitClimbable OR 3,_bitCollidable OR 1
 	EQUB &6b,_bitClimbable OR 3,_bitCollidable OR 1,_bitClimbable OR 3,10,_bitCollidable OR 1
 	EQUB &FF,$f0,_bitCollidable OR 1
@@ -852,7 +852,7 @@ ENDIF
 	; East tower base
 .screen21Data
 	EQUB &F5,_bitCollidable OR 1,$f3,2,_bitClimbable OR 3,_bitCollidable OR 1
-	EQUB &f5,_bitCollidable OR 1,$f3,0 OR_bitFlipped,_bitClimbable OR 3,_bitCollidable OR 1
+	EQUB &f5,_bitCollidable OR 1,$f3,0 OR _bitFlipped,_bitClimbable OR 3,_bitCollidable OR 1
 	EQUB &f7,_bitCollidable OR 1,$f5,1 OR _bitCollidable,_bitCollidable OR 1
 	EQUB &f7,_bitCollidable OR 1,$f5,8 OR _bitFlipped OR _bitHookable,_bitCollidable OR 1
 	EQUB &81,_bitCollidable OR 1,_bitCollidable OR 1
@@ -1177,9 +1177,7 @@ ENDIF
 .screen33Data
 	EQUB &c3,_bitCollidable OR 1,_bitClimbable OR 3,_bitClimbable OR 3,_bitCollidable OR 1
 	EQUB &C3,_bitCollidable OR 1,_bitClimbable OR 3,_bitClimbable OR 3,_bitCollidable OR 1
-	EQUB &ff,_bitCollidable OR 1,8 OR _bitFlipped OR _bitCollidable,3 OR _bitClimbable
-	EQUB     $f2,8 OR _bitCollidable OR _bitFlipped
-	EQUB     3 OR _bitClimbable,8 OR _bitFlipped OR _bitCollidable,1 OR _bitCollidable
+	EQUB &ff,_bitCollidable OR 1,8 OR _bitFlipped OR _bitCollidable,3 OR _bitClimbable,$f2,8 OR _bitCollidable OR _bitFlipped, 3 OR _bitClimbable,8 OR _bitFlipped OR _bitCollidable,1 OR _bitCollidable
 	EQUB &a5,_bitCollidable OR 1,3 OR _bitClimbable,3 OR _bitClimbable,1 OR _bitCollidable
 	EQUB &a5,_bitCollidable OR 1,3 OR _bitClimbable,3 OR _bitClimbable,1 OR _bitCollidable
 	EQUB &a5,_bitCollidable OR 1,3 OR _bitClimbable,3 OR _bitClimbable,1 OR _bitCollidable
